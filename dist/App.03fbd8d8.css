@@ -1,0 +1,74 @@
+.searchBar {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: white;
+    border: solid rgb(233, 227, 227) 0.2px;
+    color: black;
+    transition: 0.3s;
+    padding-left: 20px;
+}
+
+.searchBar:focus {
+    transition: 0.3s;
+    width: 350px;
+    background-color: white;
+    border: solid rgb(49, 49, 49) 0.2px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px rgb(216, 211, 211);
+}
+
+button {
+    transition: 0.3s;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    border: solid rgb(233, 227, 227) 0.2px;
+    background-color: rgb(214, 208, 208);
+    margin-left: 4px;
+}
+
+button:active, button:hover {
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(214, 208, 208);
+    border: solid rgb(49, 49, 49) 0.2px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(216, 211, 211);
+}
+
+.image {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+    object-fit: cover;
+} 
+
+.genres {
+    color: rgb(136, 67, 145);
+}
+
+.song_image {
+    transition: 0.2s;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.song_image:hover {
+    transition: 0.2s;
+    width: 252px;
+    height: 252px;
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+
+.track-text {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    
+    bottom: 0px;
+    padding: 5px;
+}
+
+/*# sourceMappingURL=/App.03fbd8d8.css.map */
